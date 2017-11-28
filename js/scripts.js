@@ -6,7 +6,7 @@ function Ticket(movie, time, age) {
 }
 
 Ticket.prototype.fullTicket = function() {
-  return this.movie + ", " + this.time + ", " + this.age;
+  return this.movie + " | " + this.time + "| " + this.age;
 }
 
 Ticket.prototype.calculateCost = function () {

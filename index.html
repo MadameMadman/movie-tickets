@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>nico's movie ticket cost calculator</h2>
+      </div>
+  <div class="row">
+    <div class="col-md-6">
+    <form id="movie-ticket">
+      <div class="row">
+        <label for="movie">Movie:  </label>
+        <select id="movie">
+          <option value="dog">a movie about a dog</option>
+          <option value="action">action boy</option>
+          <option value="boring">boring man</option>
+          <option value="tea">tea time</option>
+        </select>
+      </div>
+        <div class="row">
+        <label for="time">Time:  </label>
+        <select id="time">
+          <option value="12-pm">12:00</option>
+          <option value="3-pm">15:00</option>
+          <option value="6-pm">18:00</option>
+          <option value="9-pm">21:00</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="age">Age:  </label>
+        <select id="age">
+          <option value="Adult">Adult</option>
+          <option value="child">Child</option>
+          <option value="senior">Senior</option>
+        </select>
+      </div>
+      <div class="row">
+         <button type="submit" name="button" class="btn btn-primary">LET'S DO IT!</button>
+     </div>
+   </div>
+    </form>
+    <div class="col-md-6">
+      <div id="result"></div>
+      <div id="cost"></div>
+    </div>
+  </div>
+  </div>
+  </body>
+
+</html>
